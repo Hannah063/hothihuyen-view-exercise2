@@ -30,3 +30,5 @@ return Fruit::all();
 use App\Http\Controllers\FruitController;
 
 Route::get('/showFruits', [FruitController::class, 'getFruits']);
+
+Route::get('/showAllFruits', [FruitController::class, 'getAllFruits']);
